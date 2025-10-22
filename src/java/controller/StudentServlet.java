@@ -15,10 +15,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.util.List;
 import model.Student;
 
-/**
- *
- * @author minhtuan
- */
+
 @WebServlet(name="StudentServlet", urlPatterns={"/stse"})
 public class StudentServlet extends HttpServlet {
    
